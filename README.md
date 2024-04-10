@@ -7,7 +7,7 @@
 
 ## 运行截图
 <p align="center">
-<img src="./img/Preview.png" width="712"/> 
+<img src="./img/preview.png" width="712"/> 
 </p>
 
 ## 安装与使用
