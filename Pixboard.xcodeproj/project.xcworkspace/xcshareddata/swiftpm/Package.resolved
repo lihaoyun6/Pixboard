@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "filehash?ref=iosexample.com",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CrazyFanFan/FileHash?ref=iosexample.com",
+      "state" : {
+        "revision" : "bf08e120ffb3d9f784dcc40fcb4a606ee9a5e78e",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "633996a807442ec28df9d33b0f88ce57a0e2fdbf",
+        "version" : "5.17.0"
+      }
+    },
+    {
+      "identity" : "sdwebimageswiftui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI",
+      "state" : {
+        "revision" : "e837c37d45449fbd3b4745c10c5b5274e73edead",
+        "version" : "2.2.3"
+      }
+    }
+  ],
+  "version" : 2
+}

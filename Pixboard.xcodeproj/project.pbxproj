@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1852C11E2A9A8E3000162E53 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852C11D2A9A8E3000162E53 /* about.png */; };
+		1854EB8D2A95CBFB00DDDC07 /* PixboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EB8C2A95CBFB00DDDC07 /* PixboardApp.swift */; };
+		1854EB8F2A95CBFB00DDDC07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854EB8E2A95CBFB00DDDC07 /* ContentView.swift */; };
+		1854EB912A95CBFB00DDDC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1854EB902A95CBFB00DDDC07 /* Assets.xcassets */; };
+		1854EB942A95CBFC00DDDC07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1854EB932A95CBFC00DDDC07 /* Preview Assets.xcassets */; };
+		1854EBA22A965FBC00DDDC07 /* gifsicle in Resources */ = {isa = PBXBuildFile; fileRef = 1854EBA12A965FBC00DDDC07 /* gifsicle */; };
+		188D3EDA2A9A2A57009E1DDF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 188D3ED92A9A2A57009E1DDF /* SDWebImageSwiftUI */; };
+		18D8B5BC2A9A2E81005CCB3D /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D8B5BB2A9A2E81005CCB3D /* welcome.png */; };
+		18E684C92A9DEFEF0043EE89 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E684C82A9DEFEF0043EE89 /* loading.gif */; };
+		18E684CC2A9E26FC0043EE89 /* FileHash in Frameworks */ = {isa = PBXBuildFile; productRef = 18E684CB2A9E26FC0043EE89 /* FileHash */; };
+		18E684CF2A9F33B20043EE89 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E684D12A9F33B20043EE89 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1852C11D2A9A8E3000162E53 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		1854EB892A95CBFB00DDDC07 /* Pixboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1854EB8C2A95CBFB00DDDC07 /* PixboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixboardApp.swift; sourceTree = "<group>"; };
+		1854EB8E2A95CBFB00DDDC07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1854EB902A95CBFB00DDDC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1854EB932A95CBFC00DDDC07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1854EB952A95CBFC00DDDC07 /* Pixboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pixboard.entitlements; sourceTree = "<group>"; };
+		1854EBA12A965FBC00DDDC07 /* gifsicle */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gifsicle; sourceTree = "<group>"; };
+		18D8B5BB2A9A2E81005CCB3D /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+		18D8B5BD2A9A4609005CCB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18E684C82A9DEFEF0043EE89 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		18E684D02A9F33B20043EE89 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1854EB862A95CBFB00DDDC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E684CC2A9E26FC0043EE89 /* FileHash in Frameworks */,
+				188D3EDA2A9A2A57009E1DDF /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1854EB802A95CBFB00DDDC07 = {
+			isa = PBXGroup;
+			children = (
+				1854EB8B2A95CBFB00DDDC07 /* Pixboard */,
+				1854EB8A2A95CBFB00DDDC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1854EB8A2A95CBFB00DDDC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1854EB892A95CBFB00DDDC07 /* Pixboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1854EB8B2A95CBFB00DDDC07 /* Pixboard */ = {
+			isa = PBXGroup;
+			children = (
+				18D8B5BD2A9A4609005CCB3D /* Info.plist */,
+				1854EB8C2A95CBFB00DDDC07 /* PixboardApp.swift */,
+				1854EB8E2A95CBFB00DDDC07 /* ContentView.swift */,
+				18E684D12A9F33B20043EE89 /* Localizable.strings */,
+				1854EBA12A965FBC00DDDC07 /* gifsicle */,
+				1854EB902A95CBFB00DDDC07 /* Assets.xcassets */,
+				18E684C82A9DEFEF0043EE89 /* loading.gif */,
+				18D8B5BB2A9A2E81005CCB3D /* welcome.png */,
+				1852C11D2A9A8E3000162E53 /* about.png */,
+				1854EB952A95CBFC00DDDC07 /* Pixboard.entitlements */,
+				1854EB922A95CBFC00DDDC07 /* Preview Content */,
+			);
+			path = Pixboard;
+			sourceTree = "<group>";
+		};
+		1854EB922A95CBFC00DDDC07 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1854EB932A95CBFC00DDDC07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1854EB882A95CBFB00DDDC07 /* Pixboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1854EB982A95CBFC00DDDC07 /* Build configuration list for PBXNativeTarget "Pixboard" */;
+			buildPhases = (
+				1854EB852A95CBFB00DDDC07 /* Sources */,
+				1854EB862A95CBFB00DDDC07 /* Frameworks */,
+				1854EB872A95CBFB00DDDC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pixboard;
+			packageProductDependencies = (
+				188D3ED92A9A2A57009E1DDF /* SDWebImageSwiftUI */,
+				18E684CB2A9E26FC0043EE89 /* FileHash */,
+			);
+			productName = Pixboard;
+			productReference = 1854EB892A95CBFB00DDDC07 /* Pixboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1854EB812A95CBFB00DDDC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					1854EB882A95CBFB00DDDC07 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1854EB842A95CBFB00DDDC07 /* Build configuration list for PBXProject "Pixboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 1854EB802A95CBFB00DDDC07;
+			packageReferences = (
+				188D3ED82A9A2A57009E1DDF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				18E684CA2A9E26FC0043EE89 /* XCRemoteSwiftPackageReference "FileHash" */,
+			);
+			productRefGroup = 1854EB8A2A95CBFB00DDDC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1854EB882A95CBFB00DDDC07 /* Pixboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1854EB872A95CBFB00DDDC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1852C11E2A9A8E3000162E53 /* about.png in Resources */,
+				1854EB942A95CBFC00DDDC07 /* Preview Assets.xcassets in Resources */,
+				1854EB912A95CBFB00DDDC07 /* Assets.xcassets in Resources */,
+				18E684CF2A9F33B20043EE89 /* Localizable.strings in Resources */,
+				18E684C92A9DEFEF0043EE89 /* loading.gif in Resources */,
+				18D8B5BC2A9A2E81005CCB3D /* welcome.png in Resources */,
+				1854EBA22A965FBC00DDDC07 /* gifsicle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1854EB852A95CBFB00DDDC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1854EB8F2A95CBFB00DDDC07 /* ContentView.swift in Sources */,
+				1854EB8D2A95CBFB00DDDC07 /* PixboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E684D12A9F33B20043EE89 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E684D02A9F33B20043EE89 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1854EB962A95CBFC00DDDC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1854EB972A95CBFC00DDDC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1854EB992A95CBFC00DDDC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pixboard/Pixboard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 101;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixboard/Preview Content\"";
+				DEVELOPMENT_TEAM = L4T783637F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pixboard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSBackgroundOnly = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihaoyun6.Pixboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1854EB9A2A95CBFC00DDDC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pixboard/Pixboard.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 101;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Pixboard/Preview Content\"";
+				DEVELOPMENT_TEAM = L4T783637F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pixboard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_LSBackgroundOnly = NO;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihaoyun6.Pixboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1854EB842A95CBFB00DDDC07 /* Build configuration list for PBXProject "Pixboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854EB962A95CBFC00DDDC07 /* Debug */,
+				1854EB972A95CBFC00DDDC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1854EB982A95CBFC00DDDC07 /* Build configuration list for PBXNativeTarget "Pixboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1854EB992A95CBFC00DDDC07 /* Debug */,
+				1854EB9A2A95CBFC00DDDC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		188D3ED82A9A2A57009E1DDF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		18E684CA2A9E26FC0043EE89 /* XCRemoteSwiftPackageReference "FileHash" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CrazyFanFan/FileHash?ref=iosexample.com";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		188D3ED92A9A2A57009E1DDF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 188D3ED82A9A2A57009E1DDF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		18E684CB2A9E26FC0043EE89 /* FileHash */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E684CA2A9E26FC0043EE89 /* XCRemoteSwiftPackageReference "FileHash" */;
+			productName = FileHash;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1854EB812A95CBFB00DDDC07 /* Project object */;
+}

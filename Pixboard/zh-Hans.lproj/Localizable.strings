@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  Pixboard
+
+  Created by apple on 2023/8/30.
+  
+*/
+"This is not an HDR monitor, or you have not enabled HDR mode in your system!\n\nPixboard will show HDR content, but you may get the wrong brightness and color." = "此显示器不支持HDR或未开启HDR功能!\n\n您仍可使用此滤镜, 但程序可能无法正确\n显示HDR内容应有的色彩和亮度表现";
+"HDR Check Failed" = "不兼容的显示器";
+"Open..." = "选择图片...";
+"Rotate View" = "向右旋转";
+"LED Matrix" = "LED点阵";
+"Square LED" = "方形LED";
+"Circle LED" = "圆形LED";
+"Mono LCD" = "灰度LCD";
+"Positive" = "正显LCD";
+"Blue LCD" = "蓝白LCD";
+"VFD Display" = "VFD面板";
+"Cyan VFD" = "青色VFD";
+"Yellow VFD" = "黄色VFD";
+"CRT Monitor" = "老式CRT";
+"Color CRT" = "彩色CRT";
+"Mono CRT" = "黑白CRT";
+"Green CRT" = "绿色CRT";
+"Amber CRT" = "琥珀CRT";
+"SDR Mode" = "关闭HDR";
+"HDR Mode" = "启用HDR";
+"More Smooth" = "柔和缩放";
+"More Rough" = "锐利缩放";
+"Effect..." = "效果滤镜...";
+"Always on Top" = "窗口置顶";
+"Always on Top 􀆅" = "取消置顶";
+"Pin / Unpin" = "切换置顶";
+"Full Screen" = "切换全屏";
+"More..." = "面板操作...";
+"Normal view" = "取消反色";
+"Invert Color" = "反转颜色";
+"Clear Cache" = "清除缓存";
+"About Pixboard" = "关于 Pixboard";
+"New Board" = "新建面板";
+"Close Board" = "关闭面板";
+"Quit" = "退出";
