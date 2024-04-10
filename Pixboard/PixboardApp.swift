@@ -15,7 +15,7 @@ struct PixboardApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(mainWindow: true)
                 .frame(minWidth: 352, maxWidth: .infinity, minHeight: 324, maxHeight: .infinity)
                 .handlesExternalEvents(preferring: [""], allowing: ["*"])
         }
@@ -38,7 +38,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func hideTitleBar() {
         guard let window = NSApplication.shared.windows.first else { assertionFailure(); return }
-        window.title = "Pixboard Panel"
         window.level = .floating
         window.isMovableByWindowBackground = true
         window.standardWindowButton(.closeButton)?.isHidden = true

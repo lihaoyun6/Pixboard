@@ -117,6 +117,7 @@ struct WindowAccessor: NSViewRepresentable {
 }
 
 struct ContentView: View {
+    var mainWindow = false
     @State private var window: NSWindow?
     
     @Environment(\.colorScheme) var colorScheme
@@ -407,7 +408,9 @@ struct ContentView: View {
                 Divider()
                 Group {
                     Button( action:{ openNewWindow(window!) }, label:{ Text("New Board");Image(systemName: "plus.square.on.square") })
-                    Button( action:{ if NSApp.windows.filter({ $0.title == "Pixboard Panel" }).count == 1 { NSApplication.shared.terminate(self) } else { window!.close() } }, label:{ Text("Close Board"); Image(systemName: "multiply.square") })
+                    if !mainWindow {
+                        Button( action:{ window!.close() }, label:{ Text("Close Board"); Image(systemName: "multiply.square") })
+                    }
                     Menu{
                         Button(
                             action: {
@@ -447,7 +450,6 @@ func openNewWindow(_ pWindow: NSWindow) {
     //let point = NSEvent.mouseLocation
     let point = CGPoint(x: pWindow.frame.minX+18, y: pWindow.frame.minY+10)
     let window = NSWindow(contentRect: .zero, styleMask: [.titled, .fullSizeContentView, .resizable], backing: .buffered, defer: false)
-    window.title = "Pixboard Panel"
     window.isOpaque = false
     window.level = .floating
     window.makeKeyAndOrderFront(nil)
